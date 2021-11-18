@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portrait {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* height: 40%;
+  width: 40%; */
+}
+.portrait img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  /* height: 40%;
+  width: 40%; */
+  object-fit: cover;
+}
+.portrait img.saad {
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+.portrait img.crahs {
+  mix-blend-mode: multiply;
+}
